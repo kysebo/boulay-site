@@ -1,3 +1,5 @@
+import { Balancer } from 'react-wrap-balancer'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#fafafa] text-[#111]">
@@ -11,7 +13,9 @@ export default function Home() {
             I like helping people build well.
           </p>
           <p className="mt-3 text-sm text-neutral-700">
-            That means clearer decisions, calmer systems, better products, and healthier teams.
+            <Balancer>
+              That means clearer decisions, calmer systems, better products, and healthier teams.
+            </Balancer>
           </p>
         </section>
 
