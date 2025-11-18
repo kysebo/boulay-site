@@ -98,7 +98,7 @@ export default function Home() {
               href="mailto:kyle@boulay.me"
               className="text-[#4a6fa5] underline-offset-2 hover:underline"
             >
-              kyle@boulay.me
+              kyleboulay@gmail.com
             </a>
           </p>
         </section>
