@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "boulay.me",
-  description: "Kyle Boulay's Meandering Thoughts",
+  description: "Kyle Boulay - strategy, coaching, and thoughtful building.",
 };
 
 export default function RootLayout({
