@@ -1,8 +1,13 @@
+'use client'
+
+import { useState } from 'react'
 import { Balancer } from 'react-wrap-balancer'
 
 export default function Home() {
+  const [showEmail, setShowEmail] = useState(false)
+
   return (
-    <main role='main' aria-labelledby='id' className="min-h-screen bg-[#fafafa] text-[#111]">
+    <main role='main' className="min-h-screen bg-[#fafafa] text-[#111]">
       <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 py-16">
         {/* ETHOS */}
         <header>
@@ -26,7 +31,7 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             What I work on
           </h2>
-          <ul className="space-y-2 text-sm leading-relaxed max-w-prose list-['–__'] pl-4">
+          <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
             <li><Balancer>Product strategy and decision making</Balancer></li>
             <li><Balancer>Coaching for founders, operators, and teams (PCC)</Balancer></li>
             <li><Balancer>Early stage shaping and product narrative</Balancer></li>
@@ -91,7 +96,7 @@ export default function Home() {
           </p>
           <a
             href="/writing"
-            className="font-mono text-sm text-[#4a6fa5] underline-offset-2 hover:underline"
+            className="text-sm text-[#4a6fa5] underline-offset-2"
           >
             Visit writing
           </a>
@@ -104,12 +109,21 @@ export default function Home() {
           </h2>
           <p className="text-sm">
             Email{" "}
-            <a
-              href="mailto:kyle@boulay.me"
-              className="text-[#4a6fa5] underline-offset-2 hover:underline"
-            >
-              kyleboulay@gmail.com
-            </a>
+            {showEmail ? (
+              <a
+                href="mailto:kyleboulay@gmail.com"
+                className="text-[#4a6fa5] underline-offset-2"
+              >
+                kyleboulay@gmail.com
+              </a>
+            ) : (
+              <button
+                onClick={() => setShowEmail(true)}
+                className="text-[#4a6fa5] underline-offset-2"
+              >
+                Click to reveal
+              </button>
+            )}
           </p>
         </section>
       </div>
