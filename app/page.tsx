@@ -6,14 +6,14 @@ export default function Home() {
       <div className="max-w-[800px] ml-4 px-8 py-16">
         {/* ETHOS */}
         <header>
-          <section className="mb-10">
-            <h1 className="font-mono text-lg font-medium md:text-lg uppercase tracking-[0.05em] text-neutral-700 mb-4 leading-tight">
+          <section className="pb-6">
+            <p className="font-mono uppercase text-xs tracking-[0.15em] font-medium text-neutral-600 mb-5">
               ETHOS
-            </h1>
-            <p className="font-mono text-lg leading-relaxed text-neutral-700">
-              I like helping people build well.
             </p>
-            <p className="mt-3 text-sm text-neutral-700">
+            <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.1] text-neutral-400">
+              I like helping people build well.
+            </h1>
+            <p className="mt-4 text-base md:text-lg text-neutral-600">
               <Balancer>
                 That means clearer decisions, calmer systems, better products, and healthier teams.
               </Balancer>
@@ -22,8 +22,8 @@ export default function Home() {
         </header>
 
         {/* WHAT I WORK ON */}
-        <section className="mb-8">
-          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
+        <section className="mt-6 border-t border-neutral-200 pt-12">
+          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             What I work on
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed max-w-prose">
@@ -37,8 +37,8 @@ export default function Home() {
         </section>
 
         {/* PREVIOUS WORK */}
-        <section className="mb-8">
-          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
+        <section className="mt-12">
+          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Previous work
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed">
@@ -51,8 +51,8 @@ export default function Home() {
         </section>
 
         {/* HOW I WORK */}
-        <section className="mb-8">
-          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
+        <section className="mt-12">
+          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             How I work
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed">
@@ -65,21 +65,23 @@ export default function Home() {
         </section>
 
         {/* WHAT I'M AVAILABLE FOR */}
-        <section className="mb-8">
-          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
+        <section className="mt-12">
+          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             What I’m available for
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed">
             <li>– Founder and executive coaching</li>
             <li>– Product consulting (strategy, shaping, narrative)</li>
             <li>– Fractional product leadership</li>
-            <li>– UI engineering contracts (React, Tailwind, shadcn)</li>
+            <li> 
+              <a href="/frontend" className="text-[#4a6fa5] underline-offset-2">– UI engineering contracts (React, Tailwind, shadcn)</a>
+            </li>
           </ul>
         </section>
 
         {/* WRITING */}
-        <section className="mb-8">
-          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
+        <section className="mt-12">
+          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Writing
           </h2>
           <p className="text-sm leading-relaxed mb-2">
@@ -94,8 +96,8 @@ export default function Home() {
         </section>
 
         {/* CONTACT */}
-        <section className="border-t border-neutral-200 pt-6 mt-6">
-          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
+        <section className="border-t border-neutral-200 pt-6 mt-12">
+          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Contact
           </h2>
           <p className="text-sm">

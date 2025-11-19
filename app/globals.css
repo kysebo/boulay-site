@@ -49,10 +49,32 @@ body {
 /* Basic link styling to match your muted blue */
 a {
   color: #4a6fa5;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  transition: all 0.2s ease;
+  margin-bottom: 2px;
+  line-height: 1.2;
+  vertical-align: middle;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: transparent;
 }
 
-a:hover {
-  text-decoration: underline;
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 1px;
+  width: 0;
+  background: currentColor;
+  transition: width 0.2s ease;
+}
+
+a:hover::after {
+  width: 100%;
 }
 
 /* Optional: small default typography tweaks */
