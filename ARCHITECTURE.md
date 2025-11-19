@@ -41,7 +41,7 @@ Do not add new dependencies without an explicit reason.
 
 ## Layout and Structure
 
-- Max content width around 640 to 700px.
+- Max content width around 800px.
 - Content is centered with generous whitespace around it.
 - Pages are mostly vertical stacks of sections, not complex layouts.
 - No separate global navigation bar for now.
