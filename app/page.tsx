@@ -3,7 +3,7 @@ import { Balancer } from 'react-wrap-balancer'
 export default function Home() {
   return (
     <main role='main' aria-labelledby='id' className="min-h-screen bg-[#fafafa] text-[#111]">
-      <div className="max-w-[800px] ml-4 px-8 py-16">
+      <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 py-16">
         {/* ETHOS */}
         <header>
           <section className="pb-6">
