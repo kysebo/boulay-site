@@ -26,13 +26,13 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             What I work on
           </h2>
-          <ul className="space-y-2 text-sm leading-relaxed max-w-prose">
-            <li>– Product strategy and decision making</li>
-            <li>– Coaching for founders, operators, and teams (PCC)</li>
-            <li>– Early stage shaping and product narrative</li>
-            <li>– UI engineering with React, Tailwind, shadcn</li>
-            <li>– Systems for alignment, meetings, and execution</li>
-            <li>– Building Purposeful, a platform for team clarity</li>
+          <ul className="space-y-2 text-sm leading-relaxed max-w-prose list-['–__'] pl-4">
+            <li>Product strategy and decision making</li>
+            <li>Coaching for founders, operators, and teams (PCC)</li>
+            <li>Early stage shaping and product narrative</li>
+            <li>UI engineering with React, Tailwind, shadcn</li>
+            <li>Systems for alignment, meetings, and execution</li>
+            <li>Building Purposeful, a platform for team clarity</li>
           </ul>
         </section>
 
@@ -41,12 +41,12 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Previous work
           </h2>
-          <ul className="space-y-2 text-sm leading-relaxed">
-            <li>– Co founded Bus.com (YC W16). Raised ~&#36;30M, scaled to ~100 people.</li>
-            <li>– Led product, operations, and leadership systems during hypergrowth.</li>
-            <li>– Coached dozens of founders and executives across North America.</li>
-            <li>– Built frameworks for clarity, meetings, and team dynamics.</li>
-            <li>– Currently building Purposeful.</li>
+          <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
+            <li>Co founded Bus.com (YC W16). Raised ~&#36;30M, scaled to ~100 people.</li>
+            <li>Led product, operations, and leadership systems during hypergrowth.</li>
+            <li>Coached dozens of founders and executives across North America.</li>
+            <li>Built frameworks for clarity, meetings, and team dynamics.</li>
+            <li>Currently building Purposeful.</li>
           </ul>
         </section>
 
@@ -55,12 +55,12 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             How I work
           </h2>
-          <ul className="space-y-2 text-sm leading-relaxed">
-            <li>– I prefer simple systems and honest conversations.</li>
-            <li>– Most problems are emotional before they are operational.</li>
-            <li>– Good products come from clarity, not complexity.</li>
-            <li>– I move at a steady, sustainable pace.</li>
-            <li>– I like working with people who care.</li>
+          <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
+            <li>I prefer simple systems and honest conversations.</li>
+            <li>Most problems are emotional before they are operational.</li>
+            <li>Good products come from clarity, not complexity.</li>
+            <li>I move at a steady, sustainable pace.</li>
+            <li>I like working with people who care.</li>
           </ul>
         </section>
 
@@ -69,12 +69,12 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             What I’m available for
           </h2>
-          <ul className="space-y-2 text-sm leading-relaxed">
-            <li>– Founder and executive coaching</li>
-            <li>– Product consulting (strategy, shaping, narrative)</li>
-            <li>– Fractional product leadership</li>
-            <li> 
-              <a href="/frontend" className="text-[#4a6fa5] underline-offset-2">– UI engineering contracts (React, Tailwind, shadcn)</a>
+          <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
+            <li>Founder and executive coaching</li>
+            <li>Product consulting (strategy, shaping, narrative)</li>
+            <li>Fractional product leadership</li>
+            <li>
+              <a href="/frontend" className="text-[#4a6fa5] underline-offset-2">UI engineering contracts (React, Tailwind, shadcn)</a>
             </li>
           </ul>
         </section>
