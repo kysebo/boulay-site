@@ -107,24 +107,23 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Contact
           </h2>
-          <p className="text-sm">
-            Email{" "}
-            {showEmail ? (
+          {showEmail ? (
+            <p className="text-sm">
               <a
                 href="mailto:kyleboulay@gmail.com"
                 className="text-[#4a6fa5] underline-offset-2"
               >
                 kyleboulay@gmail.com
               </a>
-            ) : (
-              <button
-                onClick={() => setShowEmail(true)}
-                className="text-[#4a6fa5] underline-offset-2"
-              >
-                Click to reveal
-              </button>
-            )}
-          </p>
+            </p>
+          ) : (
+            <button
+              onClick={() => setShowEmail(true)}
+              className="text-sm text-[#4a6fa5] underline-offset-2"
+            >
+              Click to reveal email
+            </button>
+          )}
         </section>
       </div>
     </main>
