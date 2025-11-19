@@ -1,26 +1,32 @@
+import { Balancer } from 'react-wrap-balancer'
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#fafafa] text-[#111]">
+    <main role='main' aria-labelledby='id' className="min-h-screen bg-[#fafafa] text-[#111]">
       <div className="max-w-[800px] ml-4 px-8 py-16">
         {/* ETHOS */}
-        <section className="mb-10">
-          <h1 className="font-mono text-lg font-medium uppercase tracking-[0.05em] text-neutral-700 mb-4">
-            ETHOS
-          </h1>
-          <p className="font-mono text-xl">
-            I like helping people build well.
-          </p>
-          <p className="mt-3 text-sm text-neutral-700">
-            That means clearer decisions, calmer systems, better products, and healthier teams.
-          </p>
-        </section>
+        <header>
+          <section className="mb-10">
+            <h1 className="font-mono text-lg font-medium md:text-lg uppercase tracking-[0.05em] text-neutral-700 mb-4 leading-tight">
+              ETHOS
+            </h1>
+            <p className="font-mono text-lg leading-relaxed text-neutral-700">
+              I like helping people build well.
+            </p>
+            <p className="mt-3 text-sm text-neutral-700">
+              <Balancer>
+                That means clearer decisions, calmer systems, better products, and healthier teams.
+              </Balancer>
+            </p>
+          </section>
+        </header>
 
         {/* WHAT I WORK ON */}
         <section className="mb-8">
-          <h2 className="font-mono text-lg font-medium uppercase tracking-[0.05em] text-neutral-700 mb-4">
+          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
             What I work on
           </h2>
-          <ul className="space-y-2 text-sm leading-relaxed">
+          <ul className="space-y-2 text-sm leading-relaxed max-w-prose">
             <li>– Product strategy and decision making</li>
             <li>– Coaching for founders, operators, and teams (PCC)</li>
             <li>– Early stage shaping and product narrative</li>
@@ -32,7 +38,7 @@ export default function Home() {
 
         {/* PREVIOUS WORK */}
         <section className="mb-8">
-          <h2 className="font-mono text-lg font-medium uppercase tracking-[0.05em] text-neutral-700 mb-4">
+          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
             Previous work
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed">
@@ -46,7 +52,7 @@ export default function Home() {
 
         {/* HOW I WORK */}
         <section className="mb-8">
-          <h2 className="font-mono text-lg font-medium uppercase tracking-[0.05em] text-neutral-700 mb-4">
+          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
             How I work
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed">
@@ -60,7 +66,7 @@ export default function Home() {
 
         {/* WHAT I'M AVAILABLE FOR */}
         <section className="mb-8">
-          <h2 className="font-mono text-lg font-medium uppercase tracking-[0.05em] text-neutral-700 mb-4">
+          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
             What I’m available for
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed">
@@ -73,7 +79,7 @@ export default function Home() {
 
         {/* WRITING */}
         <section className="mb-8">
-          <h2 className="font-mono text-lg font-medium uppercase tracking-[0.05em] text-neutral-700 mb-4">
+          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
             Writing
           </h2>
           <p className="text-sm leading-relaxed mb-2">
@@ -89,7 +95,7 @@ export default function Home() {
 
         {/* CONTACT */}
         <section className="border-t border-neutral-200 pt-6 mt-6">
-          <h2 className="font-mono text-lg font-medium uppercase tracking-[0.05em] text-neutral-700 mb-4">
+          <h2 className="font-mono text-base uppercase tracking-[0.08em] font-medium text-neutral-700 mb-4">
             Contact
           </h2>
           <p className="text-sm">
