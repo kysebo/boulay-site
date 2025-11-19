@@ -4,6 +4,15 @@ This document defines how boulay.me should be structured and implemented.
 
 The goal is a calm, text focused personal site. It should feel closer to a well written README than a marketing page.
 
+--
+
+## Intent
+
+boulay.me should feel like a clear, quiet README written by a thoughtful founder.
+Text-first, minimal, no marketing gloss, no personal branding theatrics.
+The homepage especially should stay simple, calm, and serious – closer to OG Silicon Valley personal sites than a portfolio or SaaS landing page.
+Any changes should preserve this tone and level of restraint.
+
 ---
 
 ## Purpose

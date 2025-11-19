@@ -3,6 +3,8 @@ import { Provider } from 'react-wrap-balancer'
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+// See ARCHITECTURE.md for site intent and constraints.
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
