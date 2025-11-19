@@ -7,8 +7,10 @@ export default function Home() {
   const [showEmail, setShowEmail] = useState(false)
 
   return (
+    <>
     <main role='main' className="min-h-screen bg-[#fafafa] text-[#111]">
-      <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 py-16">
+      <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
+
         {/* ETHOS */}
         <header>
           <section className="pb-6">
@@ -25,6 +27,8 @@ export default function Home() {
             </p>
           </section>
         </header>
+
+
 
         {/* WHAT I WORK ON */}
         <section className="mt-6 border-t border-neutral-200 pt-12">
@@ -103,7 +107,7 @@ export default function Home() {
         </section>
 
         {/* CONTACT */}
-        <section className="border-t border-neutral-200 pt-6 mt-12">
+        <section className="mt-12">
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Contact
           </h2>
@@ -127,5 +131,16 @@ export default function Home() {
         </section>
       </div>
     </main>
+
+    <footer className="bg-[#fafafa] text-[#111]">
+      <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pb-8">
+        <div className="border-t border-neutral-200 pt-6">
+          <p className="font-mono text-sm text-neutral-600">
+            Kyle Boulay · boulay.me · {new Date().getFullYear()}
+          </p>
+        </div>
+      </div>
+    </footer>
+  </>
   );
 }
