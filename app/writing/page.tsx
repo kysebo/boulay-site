@@ -43,7 +43,7 @@ export default function WritingPage() {
               <p className="font-mono uppercase text-xs tracking-[0.15em] font-medium text-neutral-600 mb-5">
                 WRITING
               </p>
-              <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.1] text-neutral-400">
+              <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.3] text-neutral-400">
                 <Balancer>Notes on product, leadership, and clarity</Balancer>
               </h1>
               <p className="mt-4 text-base md:text-lg text-neutral-600">
