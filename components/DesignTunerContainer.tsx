@@ -188,7 +188,7 @@ export default function DesignTunerContainer({
 
       {/* Sliding drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-80 bg-[#fafafa] shadow-lg z-50 transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 h-full w-full md:w-80 bg-[#fafafa] shadow-lg z-50 transition-transform duration-300 ease-in-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -199,6 +199,20 @@ export default function DesignTunerContainer({
               <span className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600">
                 Tuning
               </span>
+            }
+            previewLabel={
+              <div className="md:hidden flex flex-col gap-3 pb-4 border-b border-neutral-200 mb-4">
+                <div>
+                  <span className={`${font === 'mono' ? 'font-mono' : 'font-sans'} text-lg font-medium text-neutral-700`}>
+                    Example title text
+                  </span>
+                </div>
+                <div className={`${width === 'narrow' ? 'max-w-[280px]' : width === 'wide' ? 'max-w-full' : 'max-w-[320px]'}`}>
+                  <p className="text-sm text-neutral-600 leading-relaxed">
+                    This is example body text to preview how density and width affect readability.
+                  </p>
+                </div>
+              </div>
             }
             fontLabel="Titles"
             fontOptions={fontOptions}

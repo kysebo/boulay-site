@@ -74,7 +74,7 @@ export default function Frontend() {
                   <h2 className={`${titleFont} text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3`}>
                     Sandbox
                   </h2>
-                  <p className={`text-sm text-neutral-600 ${bodyFont}`}>
+                  <p className={`text-sm text-neutral-600 ${bodyFont} text-left`}>
                     <button
                       onClick={openTuner}
                       className="link-style text-sm"
