@@ -17,7 +17,7 @@ interface TunerState {
 const STORAGE_KEY = 'frontend-design-tuner-v1'
 
 function getFontClass(font: Font): string {
-  return font === 'mono' ? 'font-mono' : ''
+  return font === 'mono' ? 'font-mono' : 'font-sans'
 }
 
 function getWidthClass(width: Width): string {

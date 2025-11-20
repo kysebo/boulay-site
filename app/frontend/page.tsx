@@ -39,7 +39,7 @@ export default function Frontend() {
                   </p>
                 </header>
 
-                <section className={sectionSpacing}>
+                <section className="mt-6 border-t border-neutral-200 pt-12">
                   <h2 className={`${titleFont} text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3`}>
                     How I think about frontend
                   </h2>
