@@ -19,7 +19,7 @@ export default function Footer() {
                 </svg>
               </span>
             </Link>
-            Kyle Boulay · boulay.me · {new Date().getFullYear()}
+            <Link href="/about" className="hover:underline">Kyle Boulay</Link> · boulay.me · {new Date().getFullYear()}
           </p>
         </div>
       </div>
