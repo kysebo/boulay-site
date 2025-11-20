@@ -1,11 +1,8 @@
-'use client'
-
-import { useState } from 'react'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+import EmailReveal from '@/components/EmailReveal'
 
 export default function Home() {
-  const [showEmail, setShowEmail] = useState(false)
 
   return (
     <>
@@ -112,23 +109,9 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Contact
           </h2>
-          {showEmail ? (
-            <p className="text-sm">
-              <a
-                href="mailto:kyleboulay@gmail.com"
-                className="text-[#4a6fa5] underline-offset-2"
-              >
-                kyleboulay@gmail.com
-              </a>
-            </p>
-          ) : (
-            <button
-              onClick={() => setShowEmail(true)}
-              className="text-sm text-[#4a6fa5] underline-offset-2"
-            >
-              Click to reveal email
-            </button>
-          )}
+          <p className="text-sm">
+            <EmailReveal />
+          </p>
         </section>
       </div>
     </main>
