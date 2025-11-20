@@ -59,7 +59,7 @@ function OptionButton({ selected, onClick, children }: OptionButtonProps) {
 }
 
 interface DesignTunerContainerProps {
-  children: (props: { openTuner: () => void; density: Density }) => React.ReactNode
+  children: (props: { openTuner: () => void; density: Density; font: Font }) => React.ReactNode
 }
 
 export default function DesignTunerContainer({
@@ -173,9 +173,9 @@ export default function DesignTunerContainer({
   return (
     <>
       <div
-        className={`${getFontClass(font)} ${getWidthClass(width)} ${getDensityClass(density)} mx-auto md:mx-0 md:ml-4 px-8 py-16`}
+        className={`${getWidthClass(width)} ${getDensityClass(density)} mx-auto md:mx-0 md:ml-4 px-8 py-16`}
       >
-        {children({ openTuner, density })}
+        {children({ openTuner, density, font })}
       </div>
 
       {/* Backdrop */}
@@ -200,7 +200,7 @@ export default function DesignTunerContainer({
                 Tuning
               </span>
             }
-            fontLabel="Font"
+            fontLabel="Typography"
             fontOptions={fontOptions}
             densityLabel="Density"
             densityOptions={densityOptions}
