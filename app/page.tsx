@@ -104,15 +104,15 @@ export default function Home() {
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Writing
           </h2>
-          <p className="text-sm leading-relaxed mb-2">
-            Short essays on product, clarity, founder psychology, and systems thinking.
-          </p>
-          <a
-            href="/writing"
-            className="text-sm text-[#4a6fa5] underline-offset-2"
-          >
-            → visit writing
-          </a>
+          <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
+            <li>
+              <Balancer>
+                <a href="/writing" className="text-[#4a6fa5] underline-offset-2">
+                  Short essays on product, clarity, founder psychology, and systems thinking
+                </a>
+              </Balancer>
+            </li>
+          </ul>
         </section>
       </div>
     </main>
