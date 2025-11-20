@@ -1,7 +1,13 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 import EmailReveal from '@/components/EmailReveal'
+
+export const metadata: Metadata = {
+  title: "Writing — boulay.me",
+  description: "Notes on product, leadership, and clarity.",
+}
 
 const posts = [
   {

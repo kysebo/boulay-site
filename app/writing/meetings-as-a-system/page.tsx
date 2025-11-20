@@ -1,6 +1,12 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+
+export const metadata: Metadata = {
+  title: "Meetings as a system, not an event — boulay.me",
+  description: "Many teams treat meetings as isolated events. But meetings are part of a system that creates the loop through which decisions, accountability, and expectations move.",
+}
 
 export default function MeetingsAsASystemPost() {
   return (

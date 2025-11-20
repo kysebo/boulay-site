@@ -16,8 +16,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "boulay.me",
-  description: "Kyle Boulay - strategy, coaching, and thoughtful building.",
+  title: "boulay.me — Kyle Boulay",
+  description: "Clear thinking, product leadership, coaching, and frontend work.",
+  openGraph: {
+    title: "boulay.me — Kyle Boulay",
+    description: "Clear thinking, product leadership, coaching, and frontend work.",
+    url: "https://boulay.me",
+    siteName: "boulay.me",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "boulay.me — Kyle Boulay",
+    description: "Clear thinking, product leadership, coaching, and frontend work.",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
