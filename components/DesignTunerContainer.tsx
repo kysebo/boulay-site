@@ -67,7 +67,7 @@ export default function DesignTunerContainer({
 }: DesignTunerContainerProps) {
   const [font, setFont] = useState<Font>('mono')
   const [density, setDensity] = useState<Density>('comfortable')
-  const [width, setWidth] = useState<Width>('default')
+  const [width, setWidth] = useState<Width>('wide')
   const [rememberOnDevice, setRememberOnDevice] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
 
