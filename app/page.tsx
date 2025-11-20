@@ -111,7 +111,7 @@ export default function Home() {
             href="/writing"
             className="text-sm text-[#4a6fa5] underline-offset-2"
           >
-            Visit writing
+            → visit writing
           </a>
         </section>
       </div>

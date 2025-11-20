@@ -16,7 +16,7 @@ export default function NotFound() {
             href="/"
             className="font-mono text-sm text-[#4a6fa5] underline-offset-2"
           >
-            Back to home
+            ← back to home
           </Link>
         </div>
       </main>
