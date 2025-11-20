@@ -77,7 +77,11 @@ export default function Home() {
             What I’m available for
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-            <li><Balancer>Founder and executive coaching</Balancer></li>
+            <li>
+              <Balancer>
+                <a href="/coaching" className="text-[#4a6fa5] underline-offset-2">Founder and executive coaching</a>
+              </Balancer>
+            </li>
             <li><Balancer>Product consulting (strategy, shaping, narrative)</Balancer></li>
             <li><Balancer>Fractional product leadership</Balancer></li>
             <li>
