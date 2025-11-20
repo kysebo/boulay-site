@@ -65,7 +65,7 @@ interface DesignTunerContainerProps {
 export default function DesignTunerContainer({
   children,
 }: DesignTunerContainerProps) {
-  const [font, setFont] = useState<Font>('sans')
+  const [font, setFont] = useState<Font>('mono')
   const [density, setDensity] = useState<Density>('comfortable')
   const [width, setWidth] = useState<Width>('default')
   const [rememberOnDevice, setRememberOnDevice] = useState(false)
@@ -200,7 +200,7 @@ export default function DesignTunerContainer({
                 Tuning
               </span>
             }
-            fontLabel="Typography"
+            fontLabel="Titles"
             fontOptions={fontOptions}
             densityLabel="Density"
             densityOptions={densityOptions}

@@ -15,7 +15,7 @@ export default function Frontend() {
             const sectionSpacing = density === 'compact' ? 'mt-8' : 'mt-12'
             const headerSpacing = density === 'compact' ? 'mt-6' : 'mt-8'
             const titleFont = font === 'mono' ? 'font-mono' : 'font-sans'
-            const bodyFont = font === 'mono' ? '' : 'font-mono'
+            const bodyFont = font === 'mono' ? '' : ''
 
             return (
               <>
