@@ -35,7 +35,7 @@ export default function WritingPage() {
             href="/"
             className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
           >
-            ← Home
+            ← home
           </Link>
 
           {/* TITLE BLOCK */}

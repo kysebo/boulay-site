@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 
-export default function EmotionalBeforeOperationalPost() {
+export default function MeetingsAsASystemPost() {
   return (
     <>
       <main className="min-h-screen bg-[#fafafa] text-[#111]">
@@ -11,23 +11,23 @@ export default function EmotionalBeforeOperationalPost() {
           {/* BREADCRUMB */}
           <nav className="font-mono text-sm text-[#4a6fa5]">
             <Link href="/" className="underline-offset-2">
-              home
+              Home
             </Link>
             <span className="mx-2 text-neutral-400">/</span>
             <Link href="/writing" className="underline-offset-2">
-              writing
+              Writing
             </Link>
           </nav>
 
           {/* SKETCH */}
           <div>
-            <img src="/sketch_emotional.svg" alt="" className="w-80 h-auto" />
+            <img src="/sketch_meetings.svg" alt="" className="w-80 h-auto" />
           </div>
 
           {/* TITLE */}
           <header>
             <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.3] text-neutral-400">
-              <Balancer>Most problems are emotional before they are operational</Balancer>
+              <Balancer>Meetings as a system, not an event</Balancer>
             </h1>
             <p className="text-xs text-neutral-400 font-mono mt-2 mb-6">
               2025
@@ -38,31 +38,45 @@ export default function EmotionalBeforeOperationalPost() {
           <article className="mt-2">
             <p className="text-sm leading-relaxed text-neutral-600">
               <Balancer>
-                When something is not working inside a company, the first instinct is to look for a process or strategy issue. In my experience, most problems start at an emotional level.
+                Many teams treat meetings as isolated events. A calendar block. A place to cover updates. But meetings are part of a system. They create the loop through which decisions, accountability, and expectations move.
               </Balancer>
             </p>
 
             <p className="text-sm leading-relaxed text-neutral-600 mt-4">
               <Balancer>
-                People get stuck because of fear, pressure, avoidance, or the need to prove something. These emotional states create fog. They lead to unclear decisions, messy communication, and misaligned expectations. When people are not steady, the work is not steady.
+                When meetings feel chaotic or draining, it is usually because the system around them is broken. Inputs are unclear. Decisions are not documented. Follow through is inconsistent. People show up unprepared because there is no shared rhythm.
               </Balancer>
             </p>
 
             <p className="text-sm leading-relaxed text-neutral-600 mt-4">
               <Balancer>
-                Leaders often try to fix operations without understanding the emotional pattern underneath the behavior. Meetings get redesigned. Plans get rewritten. Teams get restructured. But if the inner state does not shift, the outer work does not shift either.
+                If you view meetings as a system, the questions become simple:
+              </Balancer>
+            </p>
+
+            <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4 text-neutral-600 mt-4">
+              <li>What enters the meeting</li>
+              <li>What leaves the meeting</li>
+              <li>How are decisions tracked</li>
+              <li>How is accountability created</li>
+              <li>How does this connect to the next loop</li>
+            </ul>
+
+            <p className="text-sm leading-relaxed text-neutral-600 mt-4">
+              <Balancer>
+                Strong meeting systems reduce anxiety and speed up decision making.
               </Balancer>
             </p>
 
             <p className="text-sm leading-relaxed text-neutral-600 mt-4 font-semibold">
               <Balancer>
-                Clarity comes when emotion is acknowledged, not ignored. Once that layer is seen, operational changes become simple and natural.
+                Bad meetings are not fixed inside the meeting. They are fixed in the system that surrounds them.
               </Balancer>
             </p>
           </article>
 
           {/* BACK LINK */}
-          <nav className="mt-4">
+          <nav className="mt-8">
             <Link
               href="/writing"
               className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
