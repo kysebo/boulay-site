@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 import EmailReveal from '@/components/EmailReveal'
+import BackLink from '@/components/BackLink'
 
 export const metadata: Metadata = {
   title: "Coaching — boulay.me",
@@ -16,12 +16,7 @@ export default function CoachingPage() {
         <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
 
           {/* BACK LINK */}
-          <Link
-            href="/"
-            className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
-          >
-            ← Home
-          </Link>
+          <BackLink href="/">home</BackLink>
 
           {/* TITLE BLOCK */}
           <header>
@@ -148,7 +143,7 @@ export default function CoachingPage() {
             </p>
             <p className="text-sm leading-relaxed">
               Or book a time to speak directly:{' '}
-              <a href="https://cal.com/kyle" target="_blank" rel="noopener noreferrer" className="text-[#4a6fa5] underline-offset-2">
+              <a href="https://cal.com/kyle" target="_blank" rel="noopener noreferrer" className="text-[#4a6fa5] underline-offset-2 hover:underline">
                 cal.com/kyle
               </a>
             </p>

@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     description: "Clear thinking, product leadership, coaching, and frontend work.",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
   },
 };
 
