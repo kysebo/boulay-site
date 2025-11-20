@@ -78,7 +78,7 @@ export default function WritingPage() {
           </section>
 
           {/* CONTACT */}
-          <section className="mt-12">
+          <section className="mt-4">
             <p className="text-sm leading-relaxed text-neutral-600">
               <Balancer>
                 If you want to talk about any of this, you can reach me at{' '}
