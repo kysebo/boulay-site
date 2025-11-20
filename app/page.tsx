@@ -1,6 +1,5 @@
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
-import EmailReveal from '@/components/EmailReveal'
 
 export default function Home() {
 
@@ -77,7 +76,11 @@ export default function Home() {
             What I’m available for
           </h2>
           <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-            <li><Balancer>Founder and executive coaching</Balancer></li>
+            <li>
+              <Balancer>
+                <a href="/coaching" className="text-[#4a6fa5] underline-offset-2">Founder and executive coaching</a>
+              </Balancer>
+            </li>
             <li><Balancer>Product consulting (strategy, shaping, narrative)</Balancer></li>
             <li><Balancer>Fractional product leadership</Balancer></li>
             <li>
@@ -102,16 +105,6 @@ export default function Home() {
           >
             Visit writing
           </a>
-        </section>
-
-        {/* CONTACT */}
-        <section className="mt-12">
-          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
-            Contact
-          </h2>
-          <p className="text-sm">
-            <EmailReveal />
-          </p>
         </section>
       </div>
     </main>
