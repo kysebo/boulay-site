@@ -14,7 +14,7 @@ export default function Home() {
             <p className="font-mono uppercase text-xs tracking-[0.15em] font-medium text-neutral-600 mb-5">
               ETHOS
             </p>
-            <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.1] text-neutral-400">
+            <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.3] text-neutral-400">
               I like helping people build well.
             </h1>
             <p className="mt-4 text-base md:text-lg text-neutral-600">
@@ -111,7 +111,7 @@ export default function Home() {
             href="/writing"
             className="text-sm text-[#4a6fa5] underline-offset-2"
           >
-            Visit writing
+            → visit writing
           </a>
         </section>
       </div>

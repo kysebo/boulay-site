@@ -102,6 +102,26 @@ Avoid:
 
 Unless specifically requested for a particular use case.
 
+### List Styling
+
+Lists across the site use a dash-only bullet pattern for visual consistency:
+
+- Tailwind class: `list-['–__']` (en-dash followed by two underscores)
+- Applied to all `<ul>` elements with descriptive content
+- Example usage:
+  ```tsx
+  <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
+    <li><Balancer>Item one</Balancer></li>
+    <li><Balancer>Item two</Balancer></li>
+  </ul>
+  ```
+- The en-dash (`–`, U+2013) is used instead of bullet points (`•`) or hyphens (`-`)
+- Always include `pl-4` for proper left padding
+- Use `space-y-2` for spacing between list items
+- Wrap long items with `<Balancer>` for better typography
+
+This pattern applies to all pages: home, coaching, product, frontend, and writing posts.
+
 ---
 
 ## Behavior and Components

@@ -29,7 +29,7 @@ export default function Frontend() {
                   <p className={`${titleFont} uppercase text-xs tracking-[0.15em] font-medium text-neutral-600 mb-5`}>
                     FRONTEND & UI
                   </p>
-                  <h1 className={`${titleFont} text-2xl font-medium leading-[1.1] text-neutral-400`}>
+                  <h1 className={`${titleFont} text-2xl font-medium leading-[1.3] text-neutral-400`}>
                     I like interfaces that feel obvious, calm, and fast.
                   </h1>
                   <p className={`mt-4 text-base text-neutral-600 ${bodyFont}`}>
