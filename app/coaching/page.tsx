@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+import EmailReveal from '@/components/EmailReveal'
 
 export default function CoachingPage() {
   return (
@@ -136,14 +137,14 @@ export default function CoachingPage() {
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               Get in touch
             </h2>
+            <p className="text-sm leading-relaxed mb-3">
+              Email: <EmailReveal />
+            </p>
             <p className="text-sm leading-relaxed">
-              <Balancer>
-                If you'd like to explore working together, you can reach me at{' '}
-                <a href="mailto:kyle@boulay.me" className="text-[#4a6fa5] underline-offset-2">
-                  kyle@boulay.me
-                </a>
-                .
-              </Balancer>
+              Or book a time to speak directly:{' '}
+              <a href="https://cal.com/kyle" target="_blank" rel="noopener noreferrer" className="text-[#4a6fa5] underline-offset-2">
+                cal.com/kyle
+              </a>
             </p>
           </section>
 

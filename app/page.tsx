@@ -1,6 +1,5 @@
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
-import EmailReveal from '@/components/EmailReveal'
 
 export default function Home() {
 
@@ -106,16 +105,6 @@ export default function Home() {
           >
             Visit writing
           </a>
-        </section>
-
-        {/* CONTACT */}
-        <section className="mt-12">
-          <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
-            Contact
-          </h2>
-          <p className="text-sm">
-            <EmailReveal />
-          </p>
         </section>
       </div>
     </main>

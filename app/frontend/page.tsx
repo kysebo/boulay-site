@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import DesignTunerContainer from '@/components/DesignTunerContainer'
 import Footer from '@/components/Footer'
-import EmailReveal from '@/components/EmailReveal'
 
 export default function Frontend() {
   return (
@@ -94,15 +93,6 @@ export default function Frontend() {
                     >
                       A small tuner to play with how this page feels.
                     </button>
-                  </p>
-                </section>
-
-                <section className={sectionSpacing}>
-                  <h2 className={`${titleFont} text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3`}>
-                    Contact
-                  </h2>
-                  <p className={`text-sm ${bodyFont}`}>
-                    <EmailReveal />
                   </p>
                 </section>
               </>
