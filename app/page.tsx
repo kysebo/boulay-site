@@ -81,8 +81,16 @@ export default function Home() {
                 <a href="/coaching" className="text-[#4a6fa5] underline-offset-2">Founder and executive coaching</a>
               </Balancer>
             </li>
-            <li><Balancer>Product consulting (strategy, shaping, narrative)</Balancer></li>
-            <li><Balancer>Fractional product leadership</Balancer></li>
+            <li>
+              <Balancer>
+                <a href="/product" className="text-[#4a6fa5] underline-offset-2">Product consulting (strategy, shaping, narrative)</a>
+              </Balancer>
+            </li>
+            <li>
+              <Balancer>
+                <a href="/product" className="text-[#4a6fa5] underline-offset-2">Fractional product leadership</a>
+              </Balancer>
+            </li>
             <li>
               <Balancer>
                 <a href="/frontend" className="text-[#4a6fa5] underline-offset-2">UI engineering contracts (React, Tailwind, shadcn)</a>
