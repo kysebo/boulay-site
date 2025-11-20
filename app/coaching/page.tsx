@@ -23,11 +23,11 @@ export default function CoachingPage() {
                 COACHING
               </p>
               <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.1] text-neutral-400">
-                Coaching for founders and operators
+                For founders and operators
               </h1>
               <p className="mt-4 text-base md:text-lg text-neutral-600">
                 <Balancer>
-                  I work with people who want clarity, steadiness, and a more honest relationship with their work.
+                  I work with leaders who want clarity, steadiness, and a more honest relationship with their work.
                 </Balancer>
               </p>
             </section>
@@ -40,7 +40,7 @@ export default function CoachingPage() {
             </h2>
             <p className="text-sm leading-relaxed mb-4">
               <Balancer>
-                My coaching blends systems thinking, emotional clarity, and practical decision support. The work is grounded, direct, and centered on helping you see what's actually happening—inside yourself, your team, and your company.
+                My coaching blends systems thinking, emotional clarity, and practical decision support. The work is grounded, direct, and centered on helping you see what's actually happening: inside yourself, your team, and your company.
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
@@ -59,7 +59,7 @@ export default function CoachingPage() {
             </h2>
             <p className="text-sm leading-relaxed mb-4">
               <Balancer>
-                I coach founders, executives, and operators who are carrying real weight—people who are building, leading teams, or navigating inflection points.
+                I coach founders, executives, and operators who are carrying real weight: people who are building, leading teams, or navigating inflection points.
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
@@ -100,8 +100,8 @@ export default function CoachingPage() {
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>1:1 coaching (twice monthly) — steady, ongoing work.</Balancer></li>
-              <li><Balancer>Deep-dive intensives — short, focused sessions for specific problems or transitions.</Balancer></li>
+              <li><Balancer>1:1 coaching (twice monthly) for steady, ongoing work.</Balancer></li>
+              <li><Balancer>Deep-dive intensives for specific problems or transitions.</Balancer></li>
             </ul>
           </section>
 
