@@ -1,5 +1,11 @@
+import type { Metadata } from 'next'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+
+export const metadata: Metadata = {
+  title: "Home — boulay.me",
+  description: "I like helping people build well.",
+}
 
 export default function Home() {
 

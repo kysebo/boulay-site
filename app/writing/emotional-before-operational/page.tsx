@@ -1,6 +1,12 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+
+export const metadata: Metadata = {
+  title: "Most problems are emotional before they are operational — boulay.me",
+  description: "When something is not working inside a company, the first instinct is to look for a process or strategy issue. In my experience, most problems start at an emotional level.",
+}
 
 export default function EmotionalBeforeOperationalPost() {
   return (

@@ -1,7 +1,13 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 import EmailReveal from '@/components/EmailReveal'
+
+export const metadata: Metadata = {
+  title: "About — boulay.me",
+  description: "A little context about my work and background.",
+}
 
 export default function AboutPage() {
   return (

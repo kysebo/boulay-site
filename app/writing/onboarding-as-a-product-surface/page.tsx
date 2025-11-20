@@ -1,6 +1,12 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+
+export const metadata: Metadata = {
+  title: "Onboarding as a product surface — boulay.me",
+  description: "Onboarding is one of the clearest places to understand your product. It exposes what is essential, what is confusing, and what people need in order to move forward with confidence.",
+}
 
 export default function OnboardingAsAProductSurfacePost() {
   return (

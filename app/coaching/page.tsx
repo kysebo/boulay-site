@@ -1,7 +1,13 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 import EmailReveal from '@/components/EmailReveal'
+
+export const metadata: Metadata = {
+  title: "Coaching — boulay.me",
+  description: "Coaching for leaders who want clarity and steadiness.",
+}
 
 export default function CoachingPage() {
   return (
