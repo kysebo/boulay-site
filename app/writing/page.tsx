@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+import EmailReveal from '@/components/EmailReveal'
 
 const posts = [
   {
@@ -81,12 +82,8 @@ export default function WritingPage() {
             <p className="text-sm leading-relaxed text-neutral-600">
               <Balancer>
                 If you want to talk about any of this, you can reach me at{' '}
-                <a
-                  href="mailto:kyleboulay@gmail.com"
-                  className="text-[#4a6fa5] underline-offset-2"
-                >
-                  kyleboulay@gmail.com
-                </a>
+                <EmailReveal className="text-[#4a6fa5] underline-offset-2 lowercase" />
+                .
               </Balancer>
             </p>
           </section>

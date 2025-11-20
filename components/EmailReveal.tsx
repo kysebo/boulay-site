@@ -25,7 +25,7 @@ export default function EmailReveal({ className }: EmailRevealProps) {
       onClick={() => setShowEmail(true)}
       className={`link-style font-sans ${className || ''}`}
     >
-      Click to reveal email
+      click to reveal email
     </button>
   )
 }
