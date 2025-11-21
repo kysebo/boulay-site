@@ -1,9 +1,9 @@
 'use client'
 
-import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import DesignTunerContainer from '@/components/DesignTunerContainer'
 import Footer from '@/components/Footer'
+import BackLink from '@/components/BackLink'
 
 export default function Frontend() {
   return (
@@ -18,12 +18,7 @@ export default function Frontend() {
 
             return (
               <>
-                <Link
-                  href="/"
-                  className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
-                >
-                  ← Home
-                </Link>
+                <BackLink href="/">home</BackLink>
 
                 <header className={headerSpacing}>
                   <p className={`${titleFont} uppercase text-xs tracking-[0.15em] font-medium text-neutral-600 mb-5`}>

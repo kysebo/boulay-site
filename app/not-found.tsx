@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import Footer from '@/components/Footer'
+import BackLink from '@/components/BackLink'
 
 export default function NotFound() {
   return (
@@ -12,12 +12,7 @@ export default function NotFound() {
           <p className="text-sm text-neutral-600 mb-6">
             The page you're looking for doesn't exist.
           </p>
-          <Link
-            href="/"
-            className="font-mono text-sm text-[#4a6fa5] underline-offset-2"
-          >
-            ← back to home
-          </Link>
+          <BackLink href="/">home</BackLink>
         </div>
       </main>
       <Footer />

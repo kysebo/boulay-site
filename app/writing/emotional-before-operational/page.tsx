@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
+import Breadcrumb from '@/components/Breadcrumb'
+import BackLink from '@/components/BackLink'
 
 export const metadata: Metadata = {
   title: "Most problems are emotional before they are operational — boulay.me",
@@ -15,15 +16,10 @@ export default function EmotionalBeforeOperationalPost() {
         <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
 
           {/* BREADCRUMB */}
-          <nav className="font-mono text-sm text-[#4a6fa5]">
-            <Link href="/" className="underline-offset-2">
-              home
-            </Link>
-            <span className="mx-2 text-neutral-400">/</span>
-            <Link href="/writing" className="underline-offset-2">
-              writing
-            </Link>
-          </nav>
+          <Breadcrumb items={[
+            { label: "home", href: "/" },
+            { label: "writing", href: "/writing" }
+          ]} />
 
           {/* SKETCH */}
           <div>
@@ -68,14 +64,9 @@ export default function EmotionalBeforeOperationalPost() {
           </article>
 
           {/* BACK LINK */}
-          <nav className="mt-4">
-            <Link
-              href="/writing"
-              className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
-            >
-              ← back to writing
-            </Link>
-          </nav>
+          <div className="mt-8">
+            <BackLink href="/writing">writing</BackLink>
+          </div>
 
         </div>
       </main>

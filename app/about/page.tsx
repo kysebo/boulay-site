@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 import EmailReveal from '@/components/EmailReveal'
+import BackLink from '@/components/BackLink'
 
 export const metadata: Metadata = {
   title: "About — boulay.me",
@@ -16,16 +16,11 @@ export default function AboutPage() {
         <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
 
           {/* BACK LINK */}
-          <Link
-            href="/"
-            className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
-          >
-            ← home
-          </Link>
+          <BackLink href="/">home</BackLink>
 
           {/* TITLE BLOCK */}
           <header>
-            <section className="pb-6 mt-8">
+            <section className="pb-4 mt-8">
               <p className="font-mono uppercase text-xs tracking-[0.15em] font-medium text-neutral-600 mb-10">
                 ABOUT
               </p>
@@ -42,7 +37,7 @@ export default function AboutPage() {
           </header>
 
           {/* BODY CONTENT */}
-          <article className="mt-6">
+          <article>
             <p className="text-sm leading-relaxed text-neutral-600">
               <Balancer>
                 I am a founder, product leader, and coach from Quebec. I tend to blend systems thinking, emotional clarity, and practical decision support. Most of my work is about helping leaders see what is actually happening, inside their teams and inside themselves.

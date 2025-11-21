@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
-import EmailReveal from '@/components/EmailReveal'
+import BackLink from '@/components/BackLink'
 
 export const metadata: Metadata = {
   title: "Coaching — boulay.me",
@@ -16,12 +15,7 @@ export default function CoachingPage() {
         <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
 
           {/* BACK LINK */}
-          <Link
-            href="/"
-            className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
-          >
-            ← Home
-          </Link>
+          <BackLink href="/">home</BackLink>
 
           {/* TITLE BLOCK */}
           <header>
@@ -47,82 +41,48 @@ export default function CoachingPage() {
             </h2>
             <p className="text-sm leading-relaxed mb-4">
               <Balancer>
-                My coaching blends systems thinking, emotional clarity, and practical decision support. The work is grounded, direct, and centered on helping you see what's actually happening: inside yourself, your team, and your company.
+                My approach blends systems thinking, emotional clarity, and calm, direct conversation. The work is focused on seeing what is actually happening, inside yourself, your team, and your company.
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>Calm, honest conversations that reduce noise.</Balancer></li>
-              <li><Balancer>Mapping what's actually driving behavior and decisions.</Balancer></li>
-              <li><Balancer>Seeing the emotional layer beneath operational issues.</Balancer></li>
-              <li><Balancer>Using systems language to create clarity and steady execution.</Balancer></li>
-              <li><Balancer>Working on mindset, identity, and leadership habits.</Balancer></li>
+              <li><Balancer>Understanding what drives behavior and decisions</Balancer></li>
+              <li><Balancer>Reducing noise and reactivity</Balancer></li>
+              <li><Balancer>Clarifying what you want and why</Balancer></li>
+              <li><Balancer>Building steadier leadership habits</Balancer></li>
+              <li><Balancer>Working with the emotional layer of the work</Balancer></li>
             </ul>
           </section>
 
-          {/* WHO I WORK WITH */}
+          {/* PEOPLE I'VE WORKED WITH */}
           <section className="mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
-              Who I work with
+              People I&apos;ve worked with
             </h2>
             <p className="text-sm leading-relaxed mb-4">
               <Balancer>
-                I coach founders, executives, and operators who are carrying real weight: people who are building, leading teams, or navigating inflection points.
+                I&apos;ve coached founders and leaders from inception through Series B and profitability, including teams backed by top venture firms.
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>Early-stage founders (seed to Series B).</Balancer></li>
-              <li><Balancer>Experienced operators stepping into leadership roles.</Balancer></li>
-              <li><Balancer>Executives looking for calm, structured thinking.</Balancer></li>
-              <li><Balancer>People in transitions (role changes, identity reorientation, company pivots).</Balancer></li>
+              <li><Balancer>Founders navigating growth and complexity</Balancer></li>
+              <li><Balancer>Leaders stepping into new roles</Balancer></li>
+              <li><Balancer>Executives looking for calm, structured thinking</Balancer></li>
             </ul>
           </section>
 
-          {/* WHAT WE WORK ON */}
+          {/* HOW WE CAN WORK TOGETHER */}
           <section className="mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
-              What we work on
+              How we can work together
             </h2>
             <p className="text-sm leading-relaxed mb-4">
               <Balancer>
-                The themes vary, but they orbit around clarity, decision-making, and personal steadiness.
+                Two simple formats:
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>Getting clear on what you actually want (and what you don't).</Balancer></li>
-              <li><Balancer>Making decisions without spinning.</Balancer></li>
-              <li><Balancer>Leading teams with more steadiness and less reactivity.</Balancer></li>
-              <li><Balancer>Building systems for accountability and alignment.</Balancer></li>
-              <li><Balancer>Navigating identity shifts that come with growth.</Balancer></li>
-            </ul>
-          </section>
-
-          {/* HOW WE WORK TOGETHER */}
-          <section className="mt-12">
-            <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
-              How we work together
-            </h2>
-            <p className="text-sm leading-relaxed mb-4">
-              <Balancer>
-                I typically work with people in one of two formats:
-              </Balancer>
-            </p>
-            <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>1:1 coaching (twice monthly) for steady, ongoing work.</Balancer></li>
-              <li><Balancer>Deep-dive intensives for specific problems or transitions.</Balancer></li>
-            </ul>
-          </section>
-
-          {/* WHY PEOPLE WORK WITH ME */}
-          <section className="mt-12">
-            <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
-              Why people work with me
-            </h2>
-            <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>I give honest, non-anxious reflections without inflating drama.</Balancer></li>
-              <li><Balancer>I've built and led teams through chaos and hypergrowth.</Balancer></li>
-              <li><Balancer>I understand founder psychology, because I've lived it.</Balancer></li>
-              <li><Balancer>I help people see patterns they've been living inside for years.</Balancer></li>
-              <li><Balancer>The work feels calm, direct, and grounding.</Balancer></li>
+              <li><Balancer>1:1 coaching (steady, ongoing work)</Balancer></li>
+              <li><Balancer>Deep dive intensives (focused, specific problems)</Balancer></li>
             </ul>
           </section>
 
@@ -131,11 +91,15 @@ export default function CoachingPage() {
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               What people say
             </h2>
-            <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li className="italic"><Balancer>"I think more clearly after every session."</Balancer></li>
-              <li className="italic"><Balancer>"I finally understand why I was stuck."</Balancer></li>
-              <li className="italic"><Balancer>"The conversations are calm, honest, and transformative."</Balancer></li>
-            </ul>
+            <p className="text-sm leading-relaxed italic mb-2">
+              <Balancer>&quot;I think more clearly after every session.&quot;</Balancer>
+            </p>
+            <p className="text-sm leading-relaxed italic mb-2">
+              <Balancer>&quot;I finally understand why I was stuck.&quot;</Balancer>
+            </p>
+            <p className="text-sm leading-relaxed italic">
+              <Balancer>&quot;The conversations are calm, honest, and grounding.&quot;</Balancer>
+            </p>
           </section>
 
           {/* GET IN TOUCH */}
@@ -144,13 +108,10 @@ export default function CoachingPage() {
               Get in touch
             </h2>
             <p className="text-sm leading-relaxed mb-3">
-              Email: <EmailReveal />
+              <Balancer>Email: kyleboulay@gmail.com</Balancer>
             </p>
             <p className="text-sm leading-relaxed">
-              Or book a time to speak directly:{' '}
-              <a href="https://cal.com/kyle" target="_blank" rel="noopener noreferrer" className="text-[#4a6fa5] underline-offset-2">
-                cal.com/kyle
-              </a>
+              <Balancer>Book a call: <a href="https://cal.com/kyle" target="_blank" rel="noopener noreferrer" className="text-[#4a6fa5] underline-offset-2 hover:underline">cal.com/kyle</a></Balancer>
             </p>
           </section>
 
