@@ -45,9 +45,9 @@ export default function LabPage() {
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>A small UI tuning sandbox for reading clarity.</Balancer></li>
-              <li><Balancer>A basic loop to explore decision making as a system.</Balancer></li>
-              <li><Balancer>A tiny prototype around meeting prep and focus.</Balancer></li>
+              <li><Balancer>A small UI tuning sandbox for reading clarity. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>A basic loop to explore decision making as a system. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>A tiny prototype around meeting prep and focus. <span className="text-neutral-400">(private)</span></Balancer></li>
             </ul>
           </section>
 
@@ -62,9 +62,9 @@ export default function LabPage() {
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>A sketch of emotional and operational layers inside a company.</Balancer></li>
-              <li><Balancer>A loop for how decisions move through a team.</Balancer></li>
-              <li><Balancer>A diagram for what good onboarding actually teaches.</Balancer></li>
+              <li><Balancer>A sketch of emotional and operational layers inside a company. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>A loop for how decisions move through a team. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>A diagram for what good onboarding actually teaches. <span className="text-neutral-400">(private)</span></Balancer></li>
             </ul>
           </section>
 
@@ -79,9 +79,9 @@ export default function LabPage() {
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>On quiet leadership.</Balancer></li>
-              <li><Balancer>On complexity, simplicity, and taste.</Balancer></li>
-              <li><Balancer>On how founders confuse urgency with importance.</Balancer></li>
+              <li><Balancer>On quiet leadership. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>On complexity, simplicity, and taste. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>On how founders confuse urgency with importance. <span className="text-neutral-400">(private)</span></Balancer></li>
             </ul>
           </section>
 
@@ -96,9 +96,9 @@ export default function LabPage() {
               </Balancer>
             </p>
             <ul className="space-y-2 text-sm leading-relaxed list-['–__'] pl-4">
-              <li><Balancer>An async decision pattern I keep circling.</Balancer></li>
-              <li><Balancer>A different way of thinking about one to ones.</Balancer></li>
-              <li><Balancer>A small prototype for seeing team energy over time.</Balancer></li>
+              <li><Balancer>An async decision pattern I keep circling. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>A different way of thinking about one to ones. <span className="text-neutral-400">(private)</span></Balancer></li>
+              <li><Balancer>A small prototype for seeing team energy over time. <span className="text-neutral-400">(private)</span></Balancer></li>
             </ul>
           </section>
 
@@ -106,7 +106,7 @@ export default function LabPage() {
           <section className="mt-12">
             <p className="text-sm leading-relaxed text-neutral-600">
               <Balancer>
-                If any of this sparks something for you, you can reach me at the email in the footer
+                If any of this sparks something for you, you can reach me at the email in the footer.
               </Balancer>
             </p>
           </section>
