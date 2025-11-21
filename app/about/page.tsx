@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <>
       <main className="min-h-screen bg-[#fafafa] text-[#111]">
-        <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
+        <div className="max-w-[800px] px-4 sm:px-6 md:px-8 pt-16 pb-8 mx-auto lg:mx-0 lg:ml-4">
 
           {/* BACK LINK */}
           <BackLink href="/">home</BackLink>
@@ -28,7 +28,7 @@ export default function AboutPage() {
               <img
                 src="/kyle.jpg"
                 alt="Kyle Boulay"
-                className="mb-5 w-24 h-24 rounded-full object-cover filter grayscale"
+                className="mb-5 w-32 sm:w-24 h-32 sm:h-24 rounded-full object-cover filter grayscale"
               />
               <h1 className="font-mono text-2xl md:text-2xl font-medium leading-[1.3] text-neutral-400">
                 A little context

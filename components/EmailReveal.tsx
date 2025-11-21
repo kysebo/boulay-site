@@ -23,7 +23,7 @@ export default function EmailReveal({ className }: EmailRevealProps) {
   return (
     <button
       onClick={() => setShowEmail(true)}
-      className={`link-style font-sans ${className || ''}`}
+      className={`link-style font-sans inline-block py-2 ${className || ''}`}
     >
       click to reveal email
     </button>

@@ -49,7 +49,7 @@ const DesignTunerRoot = React.forwardRef<HTMLDivElement, DesignTunerRootProps>(
     return (
       <div
         className={SubframeUtils.twClassNames(
-          "flex w-full max-w-[448px] flex-col items-start gap-6 rounded-md border border-solid border-neutral-200 bg-neutral-50 px-6 py-6",
+          "flex w-full sm:max-w-[448px] flex-col items-start gap-6 rounded-md border border-solid border-neutral-200 bg-neutral-50 px-6 py-6",
           className
         )}
         ref={ref}

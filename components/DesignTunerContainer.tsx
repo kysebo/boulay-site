@@ -47,7 +47,7 @@ function OptionButton({ selected, onClick, children }: OptionButtonProps) {
   return (
     <button
       onClick={onClick}
-      className={`px-3 py-1.5 text-xs rounded transition-colors cursor-pointer ${
+      className={`px-4 py-2 text-xs rounded transition-colors cursor-pointer ${
         selected
           ? 'bg-neutral-200 text-neutral-900'
           : 'bg-neutral-100 text-neutral-500 hover:bg-neutral-150'
@@ -173,7 +173,7 @@ export default function DesignTunerContainer({
   return (
     <>
       <div
-        className={`${getWidthClass(width)} ${getDensityClass(density)} mx-auto md:mx-0 md:ml-4 px-8 py-16`}
+        className={`${getWidthClass(width)} ${getDensityClass(density)} px-4 sm:px-6 md:px-8 py-16 mx-auto lg:mx-0 lg:ml-4`}
       >
         {children({ openTuner, density, font })}
       </div>
@@ -188,7 +188,7 @@ export default function DesignTunerContainer({
 
       {/* Sliding drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-full md:w-80 bg-[#fafafa] shadow-lg z-50 transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 h-full w-full sm:w-80 bg-[#fafafa] shadow-lg z-50 transition-transform duration-300 ease-in-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >

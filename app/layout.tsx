@@ -18,6 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "boulay.me — Kyle Boulay",
   description: "Clear thinking, product leadership, coaching, and frontend work.",
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+  },
   openGraph: {
     title: "boulay.me — Kyle Boulay",
     description: "Clear thinking, product leadership, coaching, and frontend work.",
