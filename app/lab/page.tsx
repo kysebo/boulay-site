@@ -106,10 +106,7 @@ export default function LabPage() {
           <section className="mt-12">
             <p className="text-sm leading-relaxed text-neutral-600">
               <Balancer>
-                If any of this sparks something for you, you can reach me at{' '}
-                <a href="mailto:kyleboulay@gmail.com" className="text-[#4a6fa5] underline-offset-2 hover:underline">
-                  kyleboulay@gmail.com
-                </a>
+                If any of this sparks something for you, you can reach me at the email in the footer
               </Balancer>
             </p>
           </section>
