@@ -20,7 +20,7 @@ export default function AboutPage() {
 
           {/* TITLE BLOCK */}
           <header>
-            <section className="pb-6 mt-8">
+            <section className="pb-4 mt-8">
               <p className="font-mono uppercase text-xs tracking-[0.15em] font-medium text-neutral-600 mb-10">
                 ABOUT
               </p>
@@ -37,7 +37,7 @@ export default function AboutPage() {
           </header>
 
           {/* BODY CONTENT */}
-          <article className="mt-6">
+          <article>
             <p className="text-sm leading-relaxed text-neutral-600">
               <Balancer>
                 I am a founder, product leader, and coach from Quebec. I tend to blend systems thinking, emotional clarity, and practical decision support. Most of my work is about helping leaders see what is actually happening, inside their teams and inside themselves.
