@@ -13,7 +13,7 @@ export default function EmotionalBeforeOperationalPost() {
   return (
     <>
       <main className="min-h-screen bg-[#fafafa] text-[#111]">
-        <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
+        <div className="max-w-[800px] px-4 sm:px-6 md:px-8 pt-16 pb-8 mx-auto lg:mx-0 lg:ml-4">
 
           {/* BREADCRUMB */}
           <Breadcrumb items={[
@@ -23,7 +23,7 @@ export default function EmotionalBeforeOperationalPost() {
 
           {/* SKETCH */}
           <div>
-            <img src="/sketch_emotional.svg" alt="" className="w-80 h-auto" />
+            <img src="/sketch_emotional.svg" alt="" className="max-w-80 w-full h-auto" />
           </div>
 
           {/* TITLE */}

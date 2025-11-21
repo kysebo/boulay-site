@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 import BackLink from '@/components/BackLink'
+import EmailReveal from '@/components/EmailReveal'
 
 export const metadata: Metadata = {
   title: "Coaching — boulay.me",
@@ -12,7 +13,7 @@ export default function CoachingPage() {
   return (
     <>
       <main className="min-h-screen bg-[#fafafa] text-[#111]">
-        <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
+        <div className="max-w-[800px] px-4 sm:px-6 md:px-8 pt-16 pb-8 mx-auto lg:mx-0 lg:ml-4">
 
           {/* BACK LINK */}
           <BackLink href="/">home</BackLink>
@@ -35,7 +36,7 @@ export default function CoachingPage() {
           </header>
 
           {/* HOW I COACH */}
-          <section className="mt-6 border-t border-neutral-200 pt-12">
+          <section className="mt-6 border-t border-neutral-200 pt-8 sm:pt-10 md:pt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               How I coach
             </h2>
@@ -54,7 +55,7 @@ export default function CoachingPage() {
           </section>
 
           {/* PEOPLE I'VE WORKED WITH */}
-          <section className="mt-12">
+          <section className="mt-8 sm:mt-10 md:mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               People I&apos;ve worked with
             </h2>
@@ -71,7 +72,7 @@ export default function CoachingPage() {
           </section>
 
           {/* HOW WE CAN WORK TOGETHER */}
-          <section className="mt-12">
+          <section className="mt-8 sm:mt-10 md:mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               How we can work together
             </h2>
@@ -87,7 +88,7 @@ export default function CoachingPage() {
           </section>
 
           {/* WHAT PEOPLE SAY */}
-          <section className="mt-12">
+          <section className="mt-8 sm:mt-10 md:mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               What people say
             </h2>
@@ -103,12 +104,12 @@ export default function CoachingPage() {
           </section>
 
           {/* GET IN TOUCH */}
-          <section className="mt-12">
+          <section className="mt-8 sm:mt-10 md:mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               Get in touch
             </h2>
             <p className="text-sm leading-relaxed mb-3">
-              <Balancer>Email: kyleboulay@gmail.com</Balancer>
+              <Balancer>Email: <EmailReveal /></Balancer>
             </p>
             <p className="text-sm leading-relaxed">
               <Balancer>Book a call: <a href="https://cal.com/kyle" target="_blank" rel="noopener noreferrer" className="text-[#4a6fa5] underline-offset-2 hover:underline">cal.com/kyle</a></Balancer>

@@ -4,12 +4,12 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer className="bg-[#fafafa] text-[#111]">
-      <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pb-8">
+      <div className="max-w-[800px] px-4 sm:px-6 md:px-8 pb-8 mx-auto lg:mx-0 lg:ml-4">
         <div className="border-t border-neutral-200 pt-6">
           <p className="text-sm text-neutral-600 mb-2">
             <span className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600">CONTACT:</span> <EmailReveal />
           </p>
-          <p className="font-mono text-sm text-neutral-600 flex items-center gap-4 mt-6">
+          <p className="font-mono text-sm text-neutral-600 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 mt-6">
             <Link href="/" aria-label="Return to home page" className="no-underline hover:opacity-80 transition-opacity [&::after]:hidden">
               <span className="inline-block bg-[#fafafa] rounded-md border border-neutral-200 p-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
@@ -19,7 +19,15 @@ export default function Footer() {
                 </svg>
               </span>
             </Link>
-            <Link href="/about" className="hover:underline">Kyle Boulay</Link> · boulay.me · <Link href="/lab" className="hover:underline">lab</Link> · {new Date().getFullYear()}
+            <span className="flex flex-wrap items-center gap-2">
+              <Link href="/about" className="hover:underline">Kyle Boulay</Link>
+              <span className="hidden sm:inline">·</span>
+              <span>boulay.me</span>
+              <span className="hidden sm:inline">·</span>
+              <Link href="/lab" className="hover:underline">lab</Link>
+              <span className="hidden sm:inline">·</span>
+              <span>{new Date().getFullYear()}</span>
+            </span>
           </p>
         </div>
       </div>

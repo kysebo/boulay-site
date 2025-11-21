@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
     <main role='main' className="min-h-screen bg-[#fafafa] text-[#111]">
-      <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
+      <div className="max-w-[800px] px-4 sm:px-6 md:px-8 pt-16 pb-8 mx-auto lg:mx-0 lg:ml-4">
 
         {/* ETHOS */}
         <header>
@@ -34,7 +34,7 @@ export default function Home() {
 
 
         {/* WHAT I WORK ON */}
-        <section className="mt-6 border-t border-neutral-200 pt-12">
+        <section className="mt-6 border-t border-neutral-200 pt-8 sm:pt-10 md:pt-12">
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             What I work on
           </h2>
@@ -49,7 +49,7 @@ export default function Home() {
         </section>
 
         {/* PREVIOUS WORK */}
-        <section className="mt-12">
+        <section className="mt-8 sm:mt-10 md:mt-12">
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Previous work
           </h2>
@@ -63,7 +63,7 @@ export default function Home() {
         </section>
 
         {/* HOW I WORK */}
-        <section className="mt-12">
+        <section className="mt-8 sm:mt-10 md:mt-12">
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             How I work
           </h2>
@@ -77,7 +77,7 @@ export default function Home() {
         </section>
 
         {/* WHAT I'M AVAILABLE FOR */}
-        <section className="mt-12">
+        <section className="mt-8 sm:mt-10 md:mt-12">
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             What I’m available for
           </h2>
@@ -106,7 +106,7 @@ export default function Home() {
         </section>
 
         {/* WRITING */}
-        <section className="mt-12">
+        <section className="mt-8 sm:mt-10 md:mt-12">
           <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
             Writing
           </h2>

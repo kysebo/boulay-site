@@ -10,7 +10,7 @@ export default function BackLink({ href, children }: BackLinkProps) {
     <nav>
       <Link
         href={href}
-        className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer"
+        className="font-mono text-sm text-[#4a6fa5] underline-offset-2 cursor-pointer inline-block py-2"
       >
         ← {children}
       </Link>

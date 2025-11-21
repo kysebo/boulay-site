@@ -13,7 +13,7 @@ export default function ProductPage() {
   return (
     <>
       <main className="min-h-screen bg-[#fafafa] text-[#111]">
-        <div className="max-w-[800px] mx-auto md:mx-0 md:ml-4 px-8 pt-16 pb-8">
+        <div className="max-w-[800px] px-4 sm:px-6 md:px-8 pt-16 pb-8 mx-auto lg:mx-0 lg:ml-4">
 
           {/* BACK LINK */}
           <BackLink href="/">home</BackLink>
@@ -36,7 +36,7 @@ export default function ProductPage() {
           </header>
 
           {/* SECTION 1: What I help with */}
-          <section className="mt-6 border-t border-neutral-200 pt-12">
+          <section className="mt-6 border-t border-neutral-200 pt-8 sm:pt-10 md:pt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               What I help with
             </h2>
@@ -54,7 +54,7 @@ export default function ProductPage() {
           </section>
 
           {/* SECTION 2: Experience */}
-          <section className="mt-12">
+          <section className="mt-8 sm:mt-10 md:mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               Experience
             </h2>
@@ -65,7 +65,7 @@ export default function ProductPage() {
           </section>
 
           {/* SECTION 3: How we can work together */}
-          <section className="mt-12">
+          <section className="mt-8 sm:mt-10 md:mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               How we can work together
             </h2>
@@ -86,7 +86,7 @@ export default function ProductPage() {
           </section>
 
           {/* SECTION 4: Get in touch */}
-          <section className="mt-12">
+          <section className="mt-8 sm:mt-10 md:mt-12">
             <h2 className="font-mono text-sm uppercase tracking-[0.08em] font-medium text-neutral-600 mb-3">
               Get in touch
             </h2>
