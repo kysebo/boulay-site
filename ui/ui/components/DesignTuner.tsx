@@ -55,8 +55,8 @@ const DesignTunerRoot = React.forwardRef<HTMLDivElement, DesignTunerRootProps>(
         ref={ref}
         {...otherProps}
       >
-        <div className="flex w-full items-start justify-between">
-          <div className="flex grow shrink-0 basis-0 flex-col items-start gap-4">
+        <div className="flex w-full items-center justify-between">
+          <div className="flex grow shrink-0 basis-0 flex-col items-start gap-0">
             {previewLabel ? (
               <span className="text-monospace-body font-monospace-body text-subtext-color">
                 {previewLabel}
@@ -75,11 +75,7 @@ const DesignTunerRoot = React.forwardRef<HTMLDivElement, DesignTunerRootProps>(
               ) : null}
             </div>
           </div>
-          {closeButton ? (
-            <div className="flex items-start justify-between">
-              {closeButton}
-            </div>
-          ) : null}
+          {closeButton}
         </div>
         <div className="flex w-full flex-col items-start gap-6 border-t border-solid border-neutral-200 pt-6">
           {tuningLabel ? (
