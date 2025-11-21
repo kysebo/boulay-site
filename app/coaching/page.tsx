@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Balancer } from 'react-wrap-balancer'
 import Footer from '@/components/Footer'
 import BackLink from '@/components/BackLink'
+import EmailReveal from '@/components/EmailReveal'
 
 export const metadata: Metadata = {
   title: "Coaching — boulay.me",
@@ -108,7 +109,7 @@ export default function CoachingPage() {
               Get in touch
             </h2>
             <p className="text-sm leading-relaxed mb-3">
-              <Balancer>Email: kyleboulay@gmail.com</Balancer>
+              <Balancer>Email: <EmailReveal /></Balancer>
             </p>
             <p className="text-sm leading-relaxed">
               <Balancer>Book a call: <a href="https://cal.com/kyle" target="_blank" rel="noopener noreferrer" className="text-[#4a6fa5] underline-offset-2 hover:underline">cal.com/kyle</a></Balancer>
